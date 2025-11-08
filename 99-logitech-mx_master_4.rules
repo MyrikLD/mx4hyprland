@@ -1,0 +1,7 @@
+# /etc/udev/rules.d/99-logitech-mx_master_4.rules
+#
+# Logitech MX Master 4
+#
+
+SUBSYSTEM=="hidraw", KERNELS=="0005:046D:B042.*", MODE="0660", GROUP="input"
+
